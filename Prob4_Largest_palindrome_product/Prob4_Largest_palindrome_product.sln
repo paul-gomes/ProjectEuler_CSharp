@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prob4_Largest_palindrome_product", "Prob4_Largest_palindrome_product\Prob4_Largest_palindrome_product.csproj", "{EE6888CD-2C8E-4156-915B-966DD31827E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE6888CD-2C8E-4156-915B-966DD31827E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6888CD-2C8E-4156-915B-966DD31827E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6888CD-2C8E-4156-915B-966DD31827E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6888CD-2C8E-4156-915B-966DD31827E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47486772-4ADB-4A65-9B71-DDA20E90B97D}
+	EndGlobalSection
+EndGlobal
