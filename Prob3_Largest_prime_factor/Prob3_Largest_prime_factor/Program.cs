@@ -24,6 +24,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Prob3_Largest_prime_factor
 {
@@ -31,11 +32,17 @@ namespace Prob3_Largest_prime_factor
     {
         static void Main(string[] args)
         {
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+                 
             Console.Write("Enter an integer to find the largest prime factor: ");
             long number = Convert.ToInt64(Console.ReadLine());
             List<long> primeFactorList = primeFactors(number);
 
             Console.WriteLine("Largest prime number: " + primeFactorList.Last());
+
+            stopwatch.Stop();
+            Console.WriteLine("The project takes: {0} ms", stopwatch.ElapsedMilliseconds);
 
         }
 
