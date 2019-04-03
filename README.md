@@ -1,7 +1,7 @@
 # ProjectEluer Problems Solution - C# 
 
 This repository contains different Prject Euler probelms. 
-All the probelms has been solved utilizing C#. 
+All the probelms have been solved in C# language. 
 
 ## Problem source link
 All the problem are from Project Euler (https://projecteuler.net).
